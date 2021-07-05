@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AMBVIENCE - Registration</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" width="200px"></a>
+		</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="series.html">Products</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="login.html">Account</a></li>
+				</ul>
+			</nav>
+			<img src="images/cart.png" width="30px" height="30px">
+			<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+		</div>
+
+	</div>
+	</div>
+	
+<!----- series ----->
+	<div class="categories">
+		<div class="small-container">
+		<h2 class="title">Registration</h2>
+		<div class ="row">
+			<div class="col-1">
+			</div>
+			<div class="col-2">
+				<form action="registration.php" method="post">
+					<span>Account detail</span><br>
+					<input class="input-register" id="input-username" name="username" type="text" placeholder="Username"><br>
+					<input class="input-register" id="input-email" name="email" type="email" placeholder="Email Address"><br>
+					<input class="input-register" id="input-password" name="password" type="password" placeholder="Password"><br>
+					<input class="input-register" id="input-passwordc" name="passwordc" type="password" placeholder="Confirm Password"><br>
+					<br>
+					<span>Shipping address</span><br>
+					<input class="input-register" id="input-name" name="name" type="text" placeholder="Name"><br>
+					<input class="input-register" id="input-phone" name="phone" type="tel" placeholder="Phone (012-3456789)" pattern="^\+?[0-9\-]{10,12}"><br>
+					<input class="input-register" id="input-address1" name="address1" type="text" placeholder="Address"><br>
+					<input class="input-register" id="input-address2" name="address2" type="text" placeholder="Address (optional)"><br>
+					<input class="input-register" id="input-city" name="city" type="text" placeholder="City"><br>
+					<div class="input-register" id="input-container">
+						<input class="input-register" id="input-country" name="country" type="text" placeholder="Country">
+						<input class="input-register" id="input-state" name="state" type="text" placeholder="State">
+						<input class="input-register" id="input-postcode" name="postcode" type="text" placeholder="Postcode">
+					</div><br>
+					<br>
+					<input class="input-register" id="input-submit" name="submit" type="submit" value="Register"><br>
+					<br>
+					<span>Already have an account? </span><a href="login.html">Login here.</a>
+				</form>
+			</div>
+			<div class="col-1">
+			</div>
+		</div>
+		</div>
+	</div>
+
+	
+<!----- footer ----->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and iOs mobile phones.</p>
+					<div class="app-logo">
+						<img src="images/play-store.png"> 
+						<img src="images/app-store.png"> 
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="images/logo-white.png">
+					<p>Getting the world's finest car freshener has never been easier.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Instagram</li>
+						<li>Twitter</li>
+						<li>YouTube</li>
+					</ul>
+				</div>
+				
+			</div>
+			<hr>
+				<p class="copyright">Copyright 2020 - AMBVIENCE Freshener</p>
+			</hr>
+		</div>
+	</div>
+<!-----js for toggle menu----->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GREAT ASPIRATION</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="index.html"><img src="images/GA.png" width="150px"></a>
+		</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="series.html">Gallery</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="login.html">Account</a></li>
+				</ul>
+			</nav>
+			
+			<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+		</div>
+	<div class="row">
+		<div class="col-2">
+			<h1>Our Dream is not complete without<br>Great Aspiration</h1>
+			<p>Million Dollar Agency</p>
+			<p>Admired Agency Award AAA</p>
+			<a href="series.html" class="btn">Explore Now &#8594;</a>
+		</div>
+		<div class="col-2">
+			<img src="images/TBHgroup.jpg">
+		</div>
+	</div>
+	</div>
+	</div>
+	
+<!----- featured ----->
+	<div class="categories">
+		<div class="small-container">
+		<h2 class="title">Featured </h2>
+		<div class ="row">
+			<div class="col-3">
+				<a href="ferrari.html"> <img src="images/category-1.jpg"></a>
+			</div>
+			<div class="col-3">
+				<a href="puma.html"><img src="images/category-2.jpg"></a>
+			</div>
+			<div class="col-3">
+				<a href="rayban.html"><img src="images/category-3.jpg"></a>
+			</div>	
+		</div>
+		</div>
+	</div>
+
+<!----- brands ----->
+	<div class="brands">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-4">
+					<img src="images/logo-coca-cola.png">
+				</div>
+				<div class="col-4">
+					<img src="images/logo-ferrari.png">
+				</div>
+				<div class="col-4">
+					<img src="images/logo-paypal.png">
+				</div>
+				<div class="col-4">
+					<img src="images/logo-puma.png">
+				</div>
+				<div class="col-4">
+					<img src="images/logo-rayban.png">
+				</div>
+			</div>
+		</div>
+
+<!----- footer ----->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and iOs mobile phones.</p>
+					<div class="app-logo">
+						<img src="images/play-store.png"> 
+						<img src="images/app-store.png"> 
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="images/logo-white.png">
+					<p>Getting the world's finest car freshener has never been easier.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Instagram</li>
+						<li>Twitter</li>
+						<li>YouTube</li>
+					</ul>
+				</div>
+				
+			</div>
+			<hr>
+				<p class="copyright">Copyright 2020 - AMBVIENCE Freshener</p>
+			</hr>
+		</div>
+	</div>
+<!-----js for toggle menu----->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+	</script>
+
+</body>
+</html>

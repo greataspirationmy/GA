@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GREAR ASPIRATION - GALLERY</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="index.html"><img src="images/GA.png" width="150px"></a>
+		</div>
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="series.html">Gallery</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="login.html">Account</a></li>
+				</ul>
+			</nav>
+			
+			<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+		</div>
+
+	</div>
+	</div>
+	
+<!----- series ----->
+	<div class="categories">
+		<div class="small-container">
+		<h2 class="title">Group Member Awards 2021</h2>
+		<div class ="row">
+			<div class="col-3">
+				<img src="images/Chua Li Li ses vip.jpg" title="Chua Li Li"></a>
+			</div>
+			<div class="col-3">
+				<img src="images/Quek Li Ling ses vip.jpg" title="Quek Li Ling"></a>
+			</div>	
+			<div class="col-3">
+				<img src="images/Quek Li Mei ses vip.jpg" title="Quek Li Mei"></a>
+			</div>	
+			<div class="col-3">
+				<img src="images/Tan Boon Huang ses.jpg" title="Tan Boon Huang">
+			</div>
+			<div class="col-3">
+				<img src="images/Tan Rui Ying ses12.jpg" title="Tan Rui Ying"></a>
+			</div>
+			<div class="col-3">
+				<img src="images/Quek Liew Su ses.jpeg" title="Quek Liew Su"></a>
+			</div>		
+			<div class="col-3">
+				<img src="images/Tan Wei Bin ses.jpeg" title="Tan Wei Bin"></a>
+			</div>
+			<div class="col-3">
+				<img src="images/Lee chen Hong ses12.jpg" title="Lee Chen Hong"></a>
+			</div>
+			<div class="col-3">
+				<img src="images/Chong Kai Siang ses12.jpg" title="Chong Kai Siang"></a>
+			</div>
+			<div class="col-3">
+				<img src="images/Lock Yann Ching ses.png" title="Lock Yann Ching"></a>
+			</div>
+			<div class="col-3">
+				<img src="images/Tan Shih Chi ses.jpg" title="Tan Shih Chi"></a>
+			</div>
+		</div>
+		</div>
+	</div>
+
+<!----- collab series ----->
+	<div class="categories">
+		<div class="small-container">
+		<h2 class="title">Leader Awards</h2>
+		<div class ="row">
+			<div class="col-3">
+				<a href="ferrari.html"><img src="images/category-1.jpg"></a>
+			</div>
+			<div class="col-3">
+				<a href="puma.html"><img src="images/category-2.jpg"></a>
+			</div>
+			<div class="col-3">
+				<a href="rayban.html"><img src="images/category-3.jpg"></a>
+			</div>	
+			<div class="col-3">
+				<a href="cocacola.html"><img src="images/category-4.jpg"></a>
+			</div>	
+			<div class="col-3">
+				<a href="gucci.html"><img src="images/category-5.jpg"></a>
+			</div>	
+			<div class="col-3">
+				<a href="supreme.html"><img src="images/category-6.jpg"></a>
+			</div>	
+		</div>
+		</div>
+	</div>
+	
+<!----- footer ----->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and iOs mobile phones.</p>
+					<div class="app-logo">
+						<img src="images/play-store.png"> 
+						<img src="images/app-store.png"> 
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="images/logo-white.png">
+					<p>Getting the world's finest car freshener has never been easier.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Instagram</li>
+						<li>Twitter</li>
+						<li>YouTube</li>
+					</ul>
+				</div>
+				
+			</div>
+			<hr>
+				<p class="copyright">Copyright 2020 - AMBVIENCE Freshener</p>
+			</hr>
+		</div>
+	</div>
+<!-----js for toggle menu----->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+				{
+					MenuItems.style.maxHeight = "0px";
+				}
+		}
+	</script>
+
+</body>
+</html>
