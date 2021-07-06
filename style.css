@@ -58,8 +58,8 @@ p{
 }
 .fixed {
   position: fixed;
-  bottom: 0;
-  right: 100;
+  bottom: 10;
+  right: 10;
 }
 .btn{
 	display: inline-block;
