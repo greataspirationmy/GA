@@ -56,6 +56,12 @@ p{
 	line-height: 60px;
 	margin: 25px 0;
 }
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+}
 .btn{
 	display: inline-block;
 	background: #ff523b;
@@ -278,10 +284,4 @@ input:focus{
 #input-country, #input-state, #input-postcode {
 	width: 32.625%;
 	font-size: 1em;
-}
-div.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
 }
