@@ -60,7 +60,8 @@ p{
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 100px;
+  width: 50px;
+  margin: 50px;
 }
 .btn{
 	display: inline-block;
