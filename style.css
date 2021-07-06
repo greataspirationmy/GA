@@ -279,3 +279,9 @@ input:focus{
 	width: 32.625%;
 	font-size: 1em;
 }
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+}
