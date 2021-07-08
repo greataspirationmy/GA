@@ -58,7 +58,7 @@ p{
 	line-height: 60px;
 	margin: 25px 0;
 }
-.fixed {
+.fixed img{
   position: fixed;
   bottom: 10;
   right: 10;
