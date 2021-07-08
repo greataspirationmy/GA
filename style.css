@@ -7,6 +7,16 @@
 body{
 	font-family: 'Poppins', sans-serif;
 }
+.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.containerawards {
+  text-align: center;
+  padding: 10px 20px;
+}
 .navbar{
 	display: flex;
 	align-items: center;
